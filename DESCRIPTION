@@ -1,11 +1,10 @@
 Package: cptAR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Autoregressive Changepoint Detection with Optional Trend
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Pratik", "Bangerwa", email = "your.email@example.com", role = c("aut", "cre"))
+Description: Provides a flexible wrapper function to detect changepoints in autoregressive (AR1 and AR2) time series models, with or without linear trend components. It bridges functionality from the changepoint and EnvCpt packages to allow customized model selection using PELT and AMOC algorithms.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
